@@ -1,0 +1,14 @@
+/* Local declarations */
+
+.column {
+    width: 48%;
+    float: left;
+    text-align: justify;
+    padding: 0px 3px;
+    margin: 5px;
+}
+
+.column p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
