@@ -1,177 +1,76 @@
-/* FONTS */
-@import url('https://fonts.googleapis.com/css?family=Amiri|Roboto');
+/* Fornts for our story */
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Lobster|Playfair+Display:700');
 
-/* UNIVERSALS */
-body {
-    margin: 0;
+/* UNIVERSAL styles*/
+
+/*
+* {
+  transition-duration: 0.2s;
+}
+*/
+
+.min-height {
+  min-height: 700px;
+}
+.primary-font {
+  font-family: 'Lobster', cursive;
+}
+.secondary-font {
+  font-family: 'Lato', Sans-Serif;
+}
+.white-text {
+  color: #FFFFFF;
+}
+.orange-text {
+  color: #F8512F;
+}
+.thin-text {
+  font-weight: 300;
+}
+.thick-text {
+  font-weight: 700;
+}
+.orange-bg {
+  background-color: #F8512F;
 }
 
-a {
-    text-decoration: none;
+/*NAVBAR styles*/
+
+.navbar-inverse {
+  background-color: transparent;
+  border: none;
 }
 
-h1, h2, h4 {
-    font-family: 'Amiri', serif;
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgba(0, 0, 0, .75);
+  text-shadow: 1px 1px #000;
 }
 
-p, a {
-    font-family: 'Roboto', sans-serif;
+.navbar-inverse .navbar-nav>li>a {
+  color: gray;
 }
 
-.text-center {
-    text-align: center;
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgba(0,0,0,.5);
+  color: #fff; /* base orange */
 }
 
-.block {
-    display: block;
+.navbar-toggle {
+  background-color: gray;
 }
 
-.pull-left {
-    float: left;
+/*JUMBOTRON styles*/
+
+#jumbotron-bg {
+  background-image: url('../images/vikaaslora.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-.pull-right {
-    float: right;
+.jumbotron {
+  padding: 0px;
 }
 
-.clear-float-left {
-    clear: left;
-}
-
-/* HEADER SECTION */
-.nav-container {
-    border-bottom: 3px solid #00aea1; /*teal*/
-    font-weight: 400;
-}
-
-.nav-container h1 {
-    margin-bottom: 0;
-}
-
-.logo {
-    color: #008175;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.nav-items {
-    margin: 0;
-    text-align: right;
-}
-
-.nav-items .listed-nav_item {
-    display: inline;
-}
-
-.nav-items .listed-nav_item a {
-    display: inline;
-    padding: 5px;
-    color: #008175;
-    font-weight: 300;
-}
-
-.dropdown {
-    position: absolute;
-    right: 50px;
-    top: 85px;
-    list-style-type: none;
-    display: none;
-    font-size: medium;
-    background-color: #fff;
-    line-height:150%;
-}
-
-li#about:hover .dropdown {
-  display: block;
-  color: black;
-}
-
-.hero {
-    height: 425px;
-    background-image: url("../images/VikaasLora.jpg");
-    background-size: cover;
-    background-position: center; 
-    padding-top: 20%;
-}
-
-/* End Header declarations */
-
-.hero h1 {
-    margin-top: 0;
-    color: red;
-}
-/* BODY */
-/* Common items for all categories */
-/* Buttons */
-
-.button-container {
-    display: inline;
-    margin-left: 30%;
-}
-
-.button-container a {
-    color: #fff;
-}
-
-button {
-    background-color: #000;
-    border: none;
-    padding: 1%;
-    border-radius: 15px;
-    font-size: 15px;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-div.button {
-    margin-left: 30%;
-}
-
-/* Containers */
-
-.cat-container {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.cat-pic-block {
-    height: 200px;
-    width: 300px;
-}
-
-.image-block {
-    height: 200px;
-    width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.image-block:hover   {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-    cursor: pointer;
-}
-
-/* FOOTER */
-footer {
-    height: 80px;
-    background-color: #333; /* charcol gray */
-    color: #fff;
-    clear: both;
-    font-size: 10px;
-    margin-top: 10px;
-}
-
-.social-media a{
-    color: #fff;
-}
-
-.social-media a:hover {
-    color: #aff300;
-}
-
-.social-media i {
-    margin: 10px 12px;
+.iam-text {
+  margin-top: 100px;
 }
