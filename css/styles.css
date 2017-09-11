@@ -3,15 +3,14 @@
 
 /* UNIVERSAL styles*/
 
-/*
 * {
   transition-duration: 0.2s;
 }
-*/
 
 .min-height {
   min-height: 700px;
 }
+
 .primary-font {
   font-family: 'Lobster', cursive;
 }
@@ -65,15 +64,23 @@
   background-image: url('../images/vikaaslora.jpg');
   background-size: cover;
   background-position: center;
+  /*
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  */
 }
 
 .jumbotron {
-  padding: 0px;
+  padding: 0;
 }
 
 .iam-text {
   margin-top: 100px;
 }
+
+
+
 
 /*Our Story styles*/
 
@@ -92,10 +99,55 @@
   margin-top: 0;
 }
 
-.story-year {
+#story-chicago {
   font-family: 'Playfair Display', serif;
-  font-size: 100px;
+  font-size: 50px;
+  color: rgba(255, 255, 255, .4);
   position: absolute;
-  z-index: -1;
-  color: rgba(149, 147, 147, .2);
+  z-index: 0;
+}
+
+#chicago-pic-box {
+  height: 400px;
+  width: 100%;
+}
+
+/*Engagement styles*/
+
+#engagement .row {
+  margin-top:100px;
+}
+
+#engagement h1 {
+  font-size: 6em;
+  margin-top: 0;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.eng-pic-box {
+  height: 300px;
+  width: 300px;
+}
+/*Carousel styles*/
+
+#picture1-bg {
+  background-image: url('../images/ourengagement/proposal/picture1.png');
+  height: 100%;
+}
+
+/*wedding styles*/
+
+#wedding .row {
+  margin-top: 100px;
+}
+
+#invitation {
+  display: flex;
+  align-items: center;
+
+}
+
+#venue {
+  display: flex;
+  align-items: center;
 }
