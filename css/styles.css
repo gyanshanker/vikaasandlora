@@ -112,6 +112,17 @@
   width: 100%;
 }
 
+/*How we met styles*/
+
+#how_we_met .row {
+  margin-top: 100px;
+}
+
+#how_we_met h1 {
+  font-size: 6em;
+  margin-top: 0;
+  text-shadow: 2px 2px 5px #000;
+}
 /*Engagement styles*/
 
 #engagement .row {
