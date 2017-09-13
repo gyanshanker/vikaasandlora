@@ -64,11 +64,8 @@
   background-image: url('../images/vikaaslora.jpg');
   background-size: cover;
   background-position: center;
-  /*
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  */
 }
 
 .jumbotron {
@@ -84,17 +81,17 @@
 
 /*Our Story styles*/
 
-#our_story .row {
+#our-story .row {
   margin-top: 100px;
 }
 
-#our_story h1 {
+#our-story h1 {
   font-size: 6em;
   margin-top: 0;
   text-shadow: 2px 2px 5px #000;
 }
 
-#our_story h3 {
+#our-story h3 {
   font-size: 2em;
   margin-top: 0;
 }
@@ -114,15 +111,20 @@
 
 /*How we met styles*/
 
-#how_we_met .row {
+#how-we-met .row {
   margin-top: 100px;
 }
 
-#how_we_met h1 {
+#how-we-met h1 {
   font-size: 6em;
   margin-top: 0;
   text-shadow: 2px 2px 5px #000;
 }
+
+#carousel0 .item {
+  height: 300px;
+}
+
 /*Engagement styles*/
 
 #engagement .row {
@@ -135,9 +137,8 @@
   text-shadow: 2px 2px 5px #000;
 }
 
-.eng-pic-box {
+.eng-pic-height {
   height: 300px;
-  width: 300px;
 }
 /*Carousel styles*/
 
@@ -146,6 +147,13 @@
   height: 100%;
 }
 
+#carousel-1 .item {
+  height: 300px;
+}
+
+#carousel-2 .item {
+  height: 300px;
+}
 /*wedding styles*/
 
 #wedding .row {
@@ -161,4 +169,43 @@
 #venue {
   display: flex;
   align-items: center;
+}
+
+/*footer styles*/
+
+#footerb {
+    height: 100px;
+    background-color: #333; /* charcol gray */
+    color: #fff;
+    font-size: 1em;
+}
+
+#copyright-sign {
+
+}
+
+#footer-nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+#footer-nav a{
+  color: #fff;
+}
+
+#footer-nav a:hover {
+  color: #aff300;
+}
+
+#social-media a{
+    color: #fff;
+}
+
+#social-media a:hover {
+    color: #aff300;
+}
+
+#footerb i,a,p {
+    margin: 5px 5px;
 }
