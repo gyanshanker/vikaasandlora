@@ -1,0 +1,216 @@
+/* Fornts for our story */
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Lobster|Playfair+Display:700');
+
+/* UNIVERSAL styles*/
+
+* {
+  transition-duration: 0.2s;
+}
+
+.min-height {
+  min-height: 700px;
+}
+
+.primary-font {
+  font-family: 'Lobster', cursive;
+}
+
+.secondary-font {
+  font-family: 'Lato', Sans-Serif;
+}
+
+.third-font {
+  font-family: 'Playfair Display', serif;
+}
+
+.white-text {
+  color: #FFFFFF;
+}
+.orange-text {
+  color: #F8512F;
+}
+
+.thin-text {
+  font-weight: 300;
+  font-size: 16px;
+}
+.thick-text {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/*NAVBAR styles*/
+
+.navbar-inverse {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgba(0, 0, 0, .75);
+  text-shadow: 1px 1px #000;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: blue;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgba(0,0,0,.5);
+  color: #fff; /* base orange */
+}
+
+.navbar-toggle {
+  background-color: blue;
+}
+
+/*JUMBOTRON styles*/
+
+#jumbotron-bg {
+  background-image: url('../images/vikaasandlora.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jumbotron {
+  padding: 0;
+}
+
+.iam-text {
+  margin-top: 100px;
+}
+
+
+
+
+/*Our Story styles*/
+
+#our-story .row {
+  margin-top: 50px;
+}
+
+#our-story h1 {
+  font-size: 6em;
+  margin-top: 0;
+  text-shadow: 2px 2px 5px #000;
+}
+
+#our-story h3 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+#story-chicago {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: rgba(255, 255, 255, .4);
+  position: absolute;
+  z-index: 0;
+}
+
+#chicago-pic-box {
+  height: 400px;
+  width: 100%;
+}
+
+/*How we met styles*/
+
+#how-we-met .row {
+  margin-top: 50px;
+}
+
+#how-we-met h1 {
+  font-size: 6em;
+  margin-top: 0;
+  text-shadow: 2px 2px 5px #000;
+}
+
+#carousel0 .item {
+  /*height: 300px;*/
+  border: 5px solid blue;
+  border-radius: 5px;
+}
+
+/*Engagement styles*/
+
+#engagement .row {
+  margin-top:50px;
+}
+
+#engagement h1 {
+  font-size: 6em;
+  margin-top: 0;
+  text-shadow: 2px 2px 5px #000;
+}
+
+#carousel-1 .item {
+  height: 300px;
+  border: 5px solid blue;
+  border-radius: 5px;
+}
+
+#carousel-2 .item {
+  height: 300px;
+  border: 5px solid blue;
+  border-radius: 5px;
+}
+
+/*wedding styles*/
+
+#wedding .row {
+  margin-top: 50px;
+}
+
+#wedding h1 {
+  font-size: 6em;
+  margin-top: 0;
+  text-shadow: 2px 2px 5px #000;
+}
+
+/*contact styles*/
+#contact .row {
+  margin-top: 50px;
+}
+
+#contact h1 {
+  font-size: 6em;
+  margin-top: 0;
+  text-shadow: 2px 2px 5px #000;
+}
+
+/*footer styles*/
+
+#footerb {
+    height: 100px;
+    background-color: #333; /* charcol gray */
+    color: #fff;
+    font-size: 16px;
+}
+
+#footer-nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+#footer-nav a{
+  color: #fff;
+}
+
+#footer-nav a:hover {
+  color: #aff300;
+}
+
+#social-media a{
+    color: #fff;
+}
+
+#social-media a:hover {
+    color: #aff300;
+}
+
+#footerb i,a,p {
+    margin: 5px 5px;
+}
