@@ -64,6 +64,13 @@
   background-color: blue;
 }
 
+@media only screen and (max-width: 768px) {
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+      margin-right: 15px;
+      margin-left: auto;
+  }
+}
+
 /*JUMBOTRON styles*/
 
 #jumbotron-bg {
@@ -118,7 +125,7 @@
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .chicago-pic-box {
       height: 200px;
       width: 100%;
@@ -194,10 +201,19 @@
 /*footer styles*/
 
 #footerb {
-    height: 100px;
+    height: 50px;
     background-color: #333; /* charcol gray */
     color: #fff;
     font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    #footerb {
+        height: 160px;
+        background-color: #333; /* charcol gray */
+        color: #fff;
+        font-size: 10px;
+    }
 }
 
 #footer-nav {
