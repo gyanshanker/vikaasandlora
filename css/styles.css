@@ -157,7 +157,7 @@
 }
 
 #carousel0 .item {
-  /*height: 300px;*/
+  height: 300px;
   border: 5px solid blue;
   border-radius: 5px;
 }
@@ -175,26 +175,26 @@
 }
 
 #carousel-1 .item {
-  height: 300px;
+  height: 200px;
   border: 5px solid blue;
   border-radius: 5px;
 }
 
 #carousel-2 .item {
-  height: 300px;
+  height: 200px;
   border: 5px solid blue;
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 770px) {
   #engagement h1 {
     font-size: 4em;
   }
   #carousel-1 .item {
-    height: 200px;
+    height: 300px;
   }
   #carousel-2 .item {
-    height: 200px;
+    height: 300px;
   }
 }
 
