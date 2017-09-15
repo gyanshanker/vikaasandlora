@@ -64,12 +64,14 @@
   background-color: blue;
 }
 
+/*
 @media only screen and (max-width: 768px) {
   .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
       margin-right: 15px;
       margin-left: auto;
   }
 }
+*/
 
 /*JUMBOTRON styles*/
 
@@ -127,9 +129,12 @@
 
 @media only screen and (max-width: 768px) {
     .chicago-pic-box {
-      height: 200px;
+      height: auto;
       width: 100%;
       border: 10px solid orange;
+    }
+    #our-story h1 {
+      font-size: 4em;
     }
 }
 
@@ -143,6 +148,12 @@
   font-size: 6em;
   margin-top: 0;
   text-shadow: 2px 2px 5px #000;
+}
+
+@media only screen and (max-width: 768px) {
+  #how-we-met h1{
+    font-size: 4em;
+  }
 }
 
 #carousel0 .item {
@@ -161,6 +172,12 @@
   font-size: 6em;
   margin-top: 0;
   text-shadow: 2px 2px 5px #000;
+}
+
+@media only screen and (max-width: 768px) {
+  #engagement h1 {
+    font-size: 4em;
+  }
 }
 
 #carousel-1 .item {
@@ -187,6 +204,12 @@
   text-shadow: 2px 2px 5px #000;
 }
 
+@media only screen and (max-width: 768px) {
+  #wedding h1 {
+    font-size: 4em;
+  }
+}
+
 /*contact styles*/
 #contact .row {
   margin-top: 50px;
@@ -198,10 +221,15 @@
   text-shadow: 2px 2px 5px #000;
 }
 
+@media only screen and (max-width: 768px) {
+  #contact h1 {
+    font-size: 4em;
+  }
+}
 /*footer styles*/
 
 #footerb {
-    height: 50px;
+    height: auto;
     background-color: #333; /* charcol gray */
     color: #fff;
     font-size: 16px;
@@ -209,13 +237,11 @@
 
 @media only screen and (max-width: 768px) {
     #footerb {
-        height: 160px;
-        background-color: #333; /* charcol gray */
-        color: #fff;
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
+/*
 #footer-nav {
   display: flex;
   justify-content: space-between;
@@ -228,6 +254,11 @@
 
 #footer-nav a:hover {
   color: #aff300;
+}
+*/
+#social-media {
+  display: flex;
+  justify-content: space-around;
 }
 
 #social-media a{
